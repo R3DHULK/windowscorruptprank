@@ -1,0 +1,24 @@
+html, body{font:300 16px/1em 'Open Sans', sans-serif;margin:0;background:#2067B2;cursor:none;color:yellow;overflow:hidden;
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+}
+html{width:100%;height:100%;}
+html:after{content:'Click to enter then Press F11 to exit Fullscreen ;)';position:fixed;top:20px;text-align:center;width:100%}
+body{color:#fff;margin:5% 0 0 10%}
+
+.omg{font-size:9.5em;line-height:1.35em;margin-left:-.4rem;}
+p{margin:0;font-size:1.7em;line-height:1.6em;max-width:800px;}
+.bottom_line{font-size:.8em;margin-top:40px}
+
+:-webkit-full-screen {color:rgba(0,0,0,0)}
+:-moz-full-screen {color:rgba(0,0,0,0)}
+:-ms-fullscreen {color:rgba(0,0,0,0)}
+:full-screen {color:rgba(0,0,0,0)}
+:fullscreen {color:rgba(0,0,0,0)}
+
+
+@media (max-width: 960px) {
+  body{font-size:10px}
+}
